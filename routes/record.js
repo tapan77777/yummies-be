@@ -8,8 +8,8 @@ mongoose.connect(
 const recordSchema = new mongoose.Schema({
   itemName: [],
   customer: {
-    CName: { type: String, required: true },
-    CNumber: { type: Number, required: true },
+    CName: { type: String },
+    CNumber: { type: Numbe },
   },
   createdDate: {
     type: Date,
